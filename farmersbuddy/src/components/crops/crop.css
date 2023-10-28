@@ -1,0 +1,43 @@
+
+.cropsCard{
+    padding: 50px 0;
+}
+.cropsCard .items{
+    transition: 0.5s;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid rgba(101, 97, 97, 0.482);
+    border-radius: 15px;
+    background-color: rgb(196, 229, 198);
+}
+.cropsCard .items:hover{
+    background-color: rgba(122, 187, 125, 0.878);
+    color: white;
+}
+.cropsCard .img{
+    width: 100px;
+    height: 100px;
+    padding: 15px 0;
+}
+.cropsCard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cropsCard .text {
+    margin-left: 15px;
+    text-align: left;
+}
+.cropsCard .text h1 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+}
+.cropsCard .details p{
+    font-weight: 600;
+    font-size: 16px;
+}
+.cropsCard .details span{
+    font-weight: 500;
+    color: rgb(6, 103, 27);
+}

@@ -1,0 +1,96 @@
+.fertilizersCard{
+    padding: 50px 0;
+}
+.fertilizersCard .items{
+    transition: 0.5s;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid rgba(101, 97, 97, 0.482);
+    border-radius: 15px;
+    background-color: rgb(196, 229, 198);
+}
+.fertilizersCard .items:hover{
+    background-color: rgba(122, 187, 125, 0.878);
+    color: white;
+}
+.fertilizersCard .img{
+    width: 100px;
+    height: 100px;
+    padding: 15px 0;
+}
+.fertilizersCard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fertilizersCard .text {
+    margin-left: 15px;
+    text-align: left;
+}
+.fertilizersCard .text h1 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+}
+.fertilizersCard .details p{
+    font-weight: 600;
+    font-size: 16px;
+}
+.fertilizersCard .details span{
+    font-weight: 500;
+    color: rgb(6, 103, 27);
+}
+
+/*--------info---------------*/
+.fertilizerinfo {
+    height: auto;
+  }
+  .fertilizerinfo #heading {
+    text-align: left;
+    padding: 0;
+  }
+  .fertilizerinfo .left{
+    margin: 150px 0;
+  }
+  .fertilizerinfo .left img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    margin: 50px 0;
+  }
+  .fertilizerinfo .right {
+    padding: 80px 70px;
+  }
+  .fertilizerinfo .items {
+    margin-top: 40px;
+  }
+  .fertilizerinfo .item {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 20px;
+    transition: 0.5s;
+  }
+  .fertilizerinfo .img{
+    width: 600px;
+  }
+  .fertilizerinfo img {
+    width: 100px;
+    height: 100px;
+  }
+  .fertilizerinfo .item h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .fertilizerinfo .item:hover {
+    background-color: rgb(106, 202, 91);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+  }
+  .fertilizerinfo .item:hover p {
+    color: #fff;
+  }
+  .fertilizerinfo .item p{
+    color: rgb(32, 182, 32);
+    font-weight: 400;
+  }
